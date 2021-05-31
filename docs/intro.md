@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+<!-- Let's discover **Docusaurus in less than 5 minutes**.
 
 ## Getting Started
 
@@ -32,4 +32,4 @@ npx docusaurus start
 
 Your site starts at `http://localhost:3000`.
 
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes. -->

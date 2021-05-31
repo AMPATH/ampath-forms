@@ -53,7 +53,7 @@ You can test your form at any point in the development process by clicking the *
 
 You can add more questions to your form schema. Questions are scoped to a **section** in the schema. They are specified in the **questions** array of a section definition. A section definition can contain an arbitrary number of questions.
 
-More details on what constitutes a question definition can be found in the [Question](/docs/platform/concepts#question) reference.
+More details on what constitutes a question definition can be found in the [Question](/platform/concepts#question) reference.
 
 ## Step 5: Save your form
 

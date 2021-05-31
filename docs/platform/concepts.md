@@ -34,22 +34,24 @@ Where:
 Each page in your form schema gets rendered in a separate tab in the form viewer, so a page can be thought of as a way to encapsulate related form logic. Below is an example of a basic page definition.
 
 ```json
-"pages": [
-  // A page
-  {
-    "label": "Encounter Details",
-    "sections": [
-      // Section definition goes here
-    ]
-  },
-  {
-    // Another page
-    "label": "Pre-Clinic Review",
-    "sections": [
-      // Section definition goes here
-    ]
-  }
-]
+{
+  "pages": [
+    // A page
+    {
+      "label": "Encounter Details",
+      "sections": [
+        // Section definition goes here
+      ]
+    },
+    {
+      // Another page
+      "label": "Pre-Clinic Review",
+      "sections": [
+        // Section definition goes here
+      ]
+    }
+  ]
+}
 ```
 
 Below is a snippet of a form. Form pages are shown as tabs at the top of the form. You can cycle through the tabs to go from page to page.

@@ -23,24 +23,26 @@ Begin by changing the name of the form. Presently, the form name has to contain 
 Add pages to your form schema. Pages are specified in the **pages** array. A page is made up of sections. The most basic page definition consists of a **label** and a **sections** array. Enter this page definition into the schema editor.
 
 ```json
-"pages": [
-	{
-		"label": "Page label goes here",
-		"sections": [
-			{
-				"questions": [
-					{
-						"label": "Question label goes here",
-						"id": "Unique ID for this question",
-						"questionOptions": {
-							"rendering": "text"
-						}
-					}
-				]
-			}
-		]
-	}
-]
+{
+  "pages": [
+    {
+      "label": "Page label goes here",
+      "sections": [
+        {
+          "questions": [
+            {
+              "label": "Question label goes here",
+              "id": "Unique ID for this question",
+              "questionOptions": {
+                "rendering": "text"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
 ```
 
 ## Step 3. Test your form

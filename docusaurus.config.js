@@ -25,7 +25,7 @@ module.exports = {
           label: "Docs",
         },
         {
-          href: "https://github.com/ampath",
+          href: "https://github.com/denniskigen/ampath-forms",
           label: "GitHub",
           position: "right",
         },
@@ -49,7 +49,7 @@ module.exports = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/denniskigen/ampath-forms",
             },
           ],
         },
@@ -64,9 +64,7 @@ module.exports = {
         docs: {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+          editUrl: "https://github.com/denniskigen/ampath-forms/edit/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

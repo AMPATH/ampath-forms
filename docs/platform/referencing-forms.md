@@ -2,9 +2,7 @@
 sidebar_position: 2
 ---
 
-# Forms
-
-## Referencing forms
+# Referencing Forms
 
 This feature allows you to build complex forms by importing logic from **component** forms in the form builder. Components can be tailored to carry domain-specific information and lend themselves to reuse. They can be mixed and matched to create complex forms. For example, an HIV Testing form can import:
 

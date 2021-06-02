@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Create a Form
 
-Below is a quick walkthrough that will help you go from zero to published in just a few minutes.
+Let's take you from zero to published in just a few minutes.
 
 ## Step 1. Log in
 

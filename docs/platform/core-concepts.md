@@ -267,7 +267,7 @@ All questions have a **label**, and **id**, a **rendering** type**,** and a set 
   ![Historical expressions](/img/historical-expressions.png)
 
 - `required`: Optional. If set to **true**, the field is treated as a required field. Defaults to **false**.
-- `validators`: Optional. An array in which you provide validation logic for the specific question. See the **Validating form fields** reference below.
+- `validators`: Optional. An array in which you provide validation logic for the specific question. Read more about validation in the [Validating form fields](validating-form-fields) reference.
 - `hide`: Optional. You can use this to define logic for hiding a question based on certain conditions.
 
   ```json

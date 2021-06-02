@@ -1,7 +1,7 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Validating Form Fields
 
-AMPATH forms support adding complex validation to your form fields. Validation rules are specified at a per-question level in the validators array of a question definition. These validation rules are based on JavaScript expressions that resolve to boolean values.
+AMPATH Forms enables you to add arbitrarily complex validation to your form inputs. You can validate a form input by adding validation rules to the validators array of your question definition. These rules are based on the return values produced from evaluating JavaScript expressions.

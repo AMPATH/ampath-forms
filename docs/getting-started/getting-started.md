@@ -33,7 +33,7 @@ Features on this page include:
   - Import a Form schema.
 - **Pagination controls** - These are at the bottom of the Forms List. They allow you to navigate between the items in the Forms list.
 
-## Using the Schema Editor
+## The Schema Editor
 
 The Schema Editor is the area where you'll do most of your work.
 
@@ -60,7 +60,12 @@ Features of the Schema Editor include:
 
 - The **User** menu. This menu shows information about the logged-in user.
 - The **Audit** menu. This menu shows audit information for a form schema. This information includes Form metadata such as the Form name, UUID, version, description, and the associated Encounter Type. It also shows who created or modified a Form and when.
-- The **Referenced Forms** button. Clicking this button shows a list of components referenced by the active form. It also allows you to reference Components from a handy dropdown menu. Read more about this feature in the [Referencing Forms](/platform/referencing-forms) guide.
+- The **Referenced Forms** button. Clicking this button shows a list of components referenced by the active form. It also allows you to reference Components from a handy dropdown menu.
+
+:::info Components
+Components are reusable forms that encapsulate related logic. They can be mixed and matched to create complex forms. Read more about this components in the [Referencing Forms](/platform/referencing-forms) guide.
+:::
+
 - The **Publish** button. Allows you to publish your form schema.
 - The **Schema Editor tab** renders a JSON-based representation of your Form schema in an embedded code editor.
 - The **Form Viewer** tab renders the visual representation of your Form schema once it gets compiled by the form engine.

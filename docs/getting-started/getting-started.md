@@ -31,7 +31,7 @@ Features on this page include:
   - Edit a Form schema. Clicking the pen icon loads the selected form's schema in the [Schema Editor](#using-the-schema-editor).
   - Download a Form schema.
   - Import a Form schema.
-- **Pagination controls** - These are at the bottom of the Forms List. They allow you to navigate between the items in the Forms list.
+- **Pagination controls** - These are at the bottom of the Forms List. They allow you to navigate between the items in the Forms List.
 
 ## The Schema Editor
 
@@ -42,9 +42,9 @@ The Schema Editor is the area where you'll do most of your work.
 You can access the Schema Editor in two ways:
 
 - Clicking **Create New** to create a new Form or a Component.
-- Clicking the pen icon next to a Form in the forms list to edit an existing schema.
+- Clicking the pen icon next to a Form in the Forms List to edit an existing schema.
 
-Features of the Schema Editor include:
+### Features
 
 - The **Interactive Schema Builder**. Accessible by clicking the hamburger menu at the far left of the navigation bar.
 - The **File** menu. From it, you can either:

@@ -14,15 +14,15 @@ Visit the [AMPATH form builder](https://openmrs-spa.org/formbuilder/#/login). Se
 
 ## Step 2. Create a form
 
-Click the **Create New** button. You will be directed to the Schema Editor page showing a basic form schema scaffold.
+Click the **Create New** button. You will be directed to the Schema Editor page showing a basic form schema scaffold. A form schema consists of pages, sections and questions.
 
 ![Schema editor](/img/schema-editor.png)
 
-Click the hamburger menu in the top-left of the page to begin constructing your schema.
+Launch the **Interactive Schema Builder** by clicking the hamburger menu in the top-left of the page to begin constructing your schema.
 
 ![Hamburger menu](/img/hamburger-menu.png)
 
-We'll type in `Test POC Exit Care Form v1.0` as the name of our form. Click the green tick when done to update the schema.
+We'll type in `Test POC Patient Consent Form v1.0` as the name of our form. Click the green tick when done to update the schema.
 
 ![Specify the name of the form](/img/add-form-name.png)
 
@@ -32,7 +32,7 @@ Presently, the form name has to contain the word **POC** for it to be deemed val
 
 Add a page to your form by clicking `Create new page`. This should launch a modal where you can provide a page label.
 
-Let's add a page labelled `Exit Reason`.
+Let's add a page labelled `Consent Elicitation`.
 
 ![Add a page to the form](/img/add-page.png)
 
@@ -40,7 +40,7 @@ Let's add a page labelled `Exit Reason`.
 
 Add a section to your form by clicking `Create new section`.
 
-We'll add a section to the form labelled `Exit Reason`. Make sure to set `isExpanded` to `true` so the section doesn't get rendered in collapsed mode.
+We'll add a section to the form labelled `Consent`. Make sure to set `isExpanded` to `true` so the section doesn't get rendered in collapsed mode.
 
 ![Add a section to the form](/img/add-section.png)
 
@@ -54,17 +54,25 @@ This launches the Question Editor panel. Fill it in with the following informati
 
 ![Configure question options](/img/configure-question-options.png)
 
-Enter `REASON EXITED CARE` in the Concept field. This should launch the Concept modal. Select `REASON EXITED CARE` from the dropdown. Select the following answers from the Answers panel:
+Enter `CONSENT` in the Concept field. This should launch the Concept modal.
 
-- `Completed Program`
-- `Treatment Complete`
-- `Voluntary Exit`
+![Concept search modal](/img/concept-modal.png)
+
+Select `PATIENT CONSENT PROVIDED` from the dropdown.
+
+![Select a concept](/img/select-concept.png)
+
+A modal should now appear asking you to pick your desired Answers from a list of available Answers. Click `Select All` to choose both `YES` and `NO`.
+
+![Select answers modal](/img/answers-modal.png)
 
 Click OK to save. You should now see the associated Concept Mappings and the Answers you chose displayed in the Question Editor.
 
 ![Question editor showing concept mappings and answers](/img/concept-mappings-and-answers.png)
 
 Click OK to save your form schema at this point. You should see an alert showing that the schema was updated successfully.
+
+![Schema updated](/img/schema-updated.png)
 
 ## Step 6. Test your form
 

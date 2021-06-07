@@ -2,7 +2,7 @@
 module.exports = {
   title: "AMPATH Forms",
   tagline: "",
-  url: "https://github.com/AMPATH/ngx-openmrs-formbuilder",
+  url: "https://github.com/AMPATH/ampath-forms",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -25,7 +25,7 @@ module.exports = {
           label: "Docs",
         },
         {
-          href: "https://github.com/denniskigen/ampath-forms",
+          href: "https://github.com/AMPATH/ampath-forms",
           label: "GitHub",
           position: "right",
         },
@@ -49,7 +49,7 @@ module.exports = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/denniskigen/ampath-forms",
+              href: "https://github.com/AMPATH/ampath-forms",
             },
           ],
         },
@@ -64,7 +64,7 @@ module.exports = {
         docs: {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/denniskigen/ampath-forms/edit/main/",
+          editUrl: "https://github.com/AMPATH/ampath-forms/edit/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

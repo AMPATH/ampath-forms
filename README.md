@@ -10,6 +10,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/denniskigen"><img src="https://avatars.githubusercontent.com/u/8509731?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dennis Kigen</b></sub></a><br /><a href="https://github.com/AMPATH/ampath-forms/commits?author=denniskigen" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/pseurey"><img src="https://avatars.githubusercontent.com/u/78152599?v=4?s=100" width="100px;" alt=""/><br /><sub><b>pseurey</b></sub></a><br /><a href="https://github.com/AMPATH/ampath-forms/commits?author=pseurey" title="Documentation">📖</a></td>
   </tr>
 </table>
 
